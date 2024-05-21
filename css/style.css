@@ -236,7 +236,7 @@ body {
 	width: 0.5rem;
 	height: 0.5rem;
 	border-radius: 50%;
-	background-color: darkred;
+	background-color: rgb(176, 159, 159);
 	opacity: 0.75;
 	transition: opacity ease 250ms;
 }
@@ -307,11 +307,11 @@ body {
   background-color: #fff;
 }
 
-.kelas p {
+/* .kelas p { 
   text-align: center;
   font-size: 2rem;
   margin-bottom: 1rem;
-}
+ } */
 
 .kelas .card {
   position: relative;
@@ -354,7 +354,7 @@ body {
     padding-top: 20px;
     z-index: 1;
     & img {
-      max-width: 80%;
+      max-width: 90%;
       transition: 0.5;
     }
   }
@@ -393,7 +393,7 @@ body {
       top: 200px;
       opacity: 0;
       padding: 10px 30px;
-      margin-top: -15px;
+      margin-top: -5px;
       color: #fff;
       text-decoration: none;
       background: #000000;
@@ -445,7 +445,7 @@ body {
     padding-top: 20px;
     z-index: 1;
     & img {
-      max-width: 80%;
+      max-width: 90%;
       transition: 0.5;
     }
   }
@@ -484,7 +484,7 @@ body {
       top: 200px;
       opacity: 0;
       padding: 10px 30px;
-      margin-top: -15px;
+      margin-top: -5px;
       color: #fff;
       text-decoration: none;
       background: #000000;
@@ -665,7 +665,38 @@ body {
   justify-content: center;
   text-align: center;
 }
+
 /* Kontak end */
+
+/* alamat start */
+.alamatvtiga {
+    padding: 20px;
+    background-color: #e4e8eb;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.alamat {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 10px;
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.alamat img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.alamat span {
+    font-size: 14px;
+}
+
+
+/* alamat end */
 
 /* Whatsapp Start*/
   .whatsapp img {
@@ -700,7 +731,7 @@ body {
 
 footer {
   background-color: #3d3d3d;
-  text-align: center;
+  text-align:center;
   padding: 1rem 0;
 }
 

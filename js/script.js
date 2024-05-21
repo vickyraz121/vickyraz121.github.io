@@ -27,3 +27,16 @@ function sendMessage() {
       whatsappMessage
   );
 }
+
+/*const slider = document.querySelector(".slider");
+let counter = 1;
+
+function slide() {
+  slider.style.transform = `translateX(${-counter * 100}%)`;
+  counter++;
+  if (counter === slider.children.length) {
+    counter = 0;
+  }
+}
+
+setInterval(slide, 2000);*/
